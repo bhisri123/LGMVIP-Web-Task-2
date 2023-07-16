@@ -1,0 +1,70 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: yellow;
+}
+
+h1 {
+  color: darkmagenta;
+}
+
+.add-todo {
+  margin-bottom: 20px;
+}
+
+.add-todo input {
+  padding: 8px;
+  width: 60%;
+  border: none;
+  border-radius: 4px;
+}
+
+.add-todo button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.todo-item .todo-text {
+  flex-grow: 1;
+}
+
+.todo-item .completed {
+  text-decoration: line-through;
+}
+
+.completed::before {
+  content: "\00d7";
+  color: red;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+
+  
